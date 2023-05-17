@@ -6,7 +6,7 @@ import anouce
 import scheduleweek
 import testscore
 
-API_KEY = "5771573743:AAFtQxZ7GorK9vcNHrlEOIZxlTaSdUc64vo"
+API_KEY = "Thêm API Key của bot tại đây"
 bot = telebot.TeleBot(API_KEY)
 payload = schedule.payload
 @bot.message_handler(commands = ['start'])
